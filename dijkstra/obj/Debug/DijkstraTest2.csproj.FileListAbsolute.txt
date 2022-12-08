@@ -1,0 +1,11 @@
+D:\Toan\Test 1\DijkstraTest2\bin\Debug\DijkstraTest2.exe.config
+D:\Toan\Test 1\DijkstraTest2\bin\Debug\DijkstraTest2.exe
+D:\Toan\Test 1\DijkstraTest2\bin\Debug\DijkstraTest2.pdb
+D:\Toan\Test 1\DijkstraTest2\obj\Debug\DijkstraTest2.csproj.AssemblyReference.cache
+D:\Toan\Test 1\DijkstraTest2\obj\Debug\DijkstraTest2.csproj.SuggestedBindingRedirects.cache
+D:\Toan\Test 1\DijkstraTest2\obj\Debug\DijkstraTest2.Form1.resources
+D:\Toan\Test 1\DijkstraTest2\obj\Debug\DijkstraTest2.Properties.Resources.resources
+D:\Toan\Test 1\DijkstraTest2\obj\Debug\DijkstraTest2.csproj.GenerateResource.cache
+D:\Toan\Test 1\DijkstraTest2\obj\Debug\DijkstraTest2.csproj.CoreCompileInputs.cache
+D:\Toan\Test 1\DijkstraTest2\obj\Debug\DijkstraTest2.exe
+D:\Toan\Test 1\DijkstraTest2\obj\Debug\DijkstraTest2.pdb
