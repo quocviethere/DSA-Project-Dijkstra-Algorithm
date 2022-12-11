@@ -152,7 +152,7 @@ namespace DijkstraTest2
             }
             if (cbSource.SelectedIndex == cbDestination.SelectedIndex)
             {
-                MessageBox.Show("Unresponsive\n The location can't be the same !", "Notify!");
+                MessageBox.Show("Unresponsive\n Starting point must not be the same as destination !", "Notify!");
             }
         }
         private void cbDestination_SelectedIndexChanged(object creator, EventArgs e)
@@ -175,7 +175,7 @@ namespace DijkstraTest2
             }
             if (cbSource.SelectedIndex == cbDestination.SelectedIndex)
             {
-                MessageBox.Show("Unresponsive\n The location can't be the same !", "Notify!");
+                MessageBox.Show("Unresponsive\n Starting point must not be the same as destination !", "Notify!");
             }    
         }
         //Vẽ lại đường đi ngắn nhất
