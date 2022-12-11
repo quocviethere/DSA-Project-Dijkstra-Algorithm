@@ -118,7 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="1324532-removebg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1324532-removebg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="04142915-ban-do-cac-tinh-mien-nam-removebg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\04142915-ban-do-cac-tinh-mien-nam-removebg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="world-map-concept-for-web-design-background-web-banner-printed-material-vector1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\world-map-concept-for-web-design-background-web-banner-printed-material-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="world-map-concept-for-web-design-background-web-banner-printed-material-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\world-map-concept-for-web-design-background-web-banner-printed-material-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="World-Map-Vector-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\World-Map-Vector-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="world-map-with-countries-on-blue-background-vector-13367991" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\world-map-with-countries-on-blue-background-vector-1336799.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hinh-nen-xanh-ngoc-2k-dep-cho-may-tinh_100606472" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hinh-nen-xanh-ngoc-2k-dep-cho-may-tinh_100606472.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="world-map-with-countries-on-blue-background-vector-1336799" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\world-map-with-countries-on-blue-background-vector-1336799.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vintage-blue-europe-map-retro-background-based-image-furnished-nasa-159657999" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vintage-blue-europe-map-retro-background-based-image-furnished-nasa-159657999.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="04142915-ban-do-cac-tinh-mien-nam" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\04142915-ban-do-cac-tinh-mien-nam.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1324532-removebg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1324532-removebg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="04142915-ban-do-cac-tinh-mien-nam-removebg (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\04142915-ban-do-cac-tinh-mien-nam-removebg (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

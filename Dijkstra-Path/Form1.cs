@@ -140,8 +140,6 @@ namespace DijkstraTest2
                 southMap.Refresh();
                 DrawLine();
                 g.pathIndex.Clear();
-                tbKM.Clear();
-                tbLiter.Clear();
                 tbCost.Clear();
                 tbPath.Clear();
                 g.FindPaths(cbSource.SelectedItem.ToString(), cbDestination.SelectedIndex.ToString(),tbKM,tbLiter, tbCost, tbPath);
@@ -149,10 +147,6 @@ namespace DijkstraTest2
                 {
                     DrawPathLine(i);
                 }
-            }
-            if (cbSource.SelectedIndex == cbDestination.SelectedIndex)
-            {
-                MessageBox.Show("Unresponsive\n The location can't be the same !", "Notify!");
             }
         }
         private void cbDestination_SelectedIndexChanged(object creator, EventArgs e)
@@ -163,8 +157,6 @@ namespace DijkstraTest2
                 southMap.Refresh();
                 DrawLine();
                 g.pathIndex.Clear();
-                tbKM.Clear();
-                tbLiter.Clear();
                 tbCost.Clear();
                 tbPath.Clear();
                 g.FindPaths(cbSource.SelectedItem.ToString(), cbDestination.SelectedIndex.ToString(),tbKM ,tbLiter, tbCost, tbPath);
@@ -173,10 +165,6 @@ namespace DijkstraTest2
                     DrawPathLine(i);
                 }
             }
-            if (cbSource.SelectedIndex == cbDestination.SelectedIndex)
-            {
-                MessageBox.Show("Unresponsive\n The location can't be the same !", "Notify!");
-            }    
         }
         //Vẽ lại đường đi ngắn nhất
         private void DrawPathLine(int i)
