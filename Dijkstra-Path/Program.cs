@@ -50,6 +50,7 @@ namespace DijkstraTest2
     {
         public readonly int MAX_VERTICES = 100;
         public int n = 0;
+        int e ;
         public int[,] adj;
         public Vertex[] vertexList;
         private readonly int INFINITY = 9999999;
@@ -119,8 +120,6 @@ namespace DijkstraTest2
         {
             int i, u;
             int[] path = new int[n];
-            int sd = 0;
-            double sl = 0;
             int km = 0;
             int count = 0;
             while (v != s)
@@ -131,8 +130,8 @@ namespace DijkstraTest2
                 km += adj[u, v];
                 v = u;
             }
-            sl = km * 0.09;
-            sd = km * 2043;
+            double sl = km * 0.09;
+            int sd = km * 2043;
             count++;
             if (count >= n)
             {
