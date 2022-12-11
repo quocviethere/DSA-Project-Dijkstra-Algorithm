@@ -50,6 +50,7 @@ namespace DijkstraTest2
     {
         public readonly int MAX_VERTICES = 100;
         public int n = 0;
+        int e ;
         public int[,] adj;
         public Vertex[] vertexList;
         private readonly int INFINITY = 9999999;
@@ -94,7 +95,7 @@ namespace DijkstraTest2
                 }
             }
         }
-        public void FindPaths(string source, string last, TextBox tbCost, TextBox tbPath)
+        public void FindPaths(string source, string last,TextBox tbKM,TextBox tbLiter, TextBox tbCost, TextBox tbPath)
         {
             int s = GetIndex(source);
             Dijkstra(s);
@@ -109,27 +110,28 @@ namespace DijkstraTest2
                     }
                     else
                     {
-                        FindPath(s, v, tbCost, tbPath);
+                        FindPath(s, v,tbKM, tbLiter, tbCost, tbPath);
                     }
                 }
             }
         }
 
-        public void FindPath(int s, int v, TextBox tbCost, TextBox tbPath)
+        public void FindPath(int s, int v, TextBox tbKM, TextBox tbLiter, TextBox tbCost, TextBox tbPath)
         {
             int i, u;
             int[] path = new int[n];
-            int sd = 0;
+            int km = 0;
             int count = 0;
             while (v != s)
             {
                 count++;
                 path[count] = v;
                 u = vertexList[v].predecessor;
-                sd += adj[u, v];
+                km += adj[u, v];
                 v = u;
             }
-
+            double sl = km * 0.09;
+            int sd = km * 2043;
             count++;
             if (count >= n)
             {
@@ -149,7 +151,9 @@ namespace DijkstraTest2
                     tbPath.Text += " -> " + vertexList[path[i]].name;
                 }
             }
-            tbCost.Text = $"{sd}";
+            tbKM.Text = $"{km} KM";
+            tbLiter.Text = $"{sl} liters";
+            tbCost.Text = $"{sd} VNĐ";
         }
 
         public int GetIndex(string s)

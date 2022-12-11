@@ -41,7 +41,6 @@ namespace DijkstraTest2
             Locations.Add(traVinh);
             Locations.Add(kienGiang);
             Locations.Add(caMau);
-            cbSource.Items.Add("Cà Mau");
             cbSource.Items.Add("Bình Phước");
             cbSource.Items.Add("Sài Gòn");
             cbSource.Items.Add("Tây Ninh");
@@ -74,9 +73,8 @@ namespace DijkstraTest2
             g.InsertEdge("Vũng Tàu", "Bình Phước", 182);
             g.InsertEdge("Sài Gòn", "Bình Phước", 124);
             g.InsertEdge("Vũng Tàu", "Sài Gòn", 98);
-            g.InsertEdge("Tiền Giang", "Sài Gòn", 65);
+            g.InsertEdge("Tiền Giang", "Sài Gòn", 72);
             g.InsertEdge("An Giang", "Sài Gòn", 235);
-            g.InsertEdge("Kiên Giang", "Trà Vinh", 235);
             g.InsertEdge("Tây Ninh", "Sài Gòn", 92);
             g.InsertEdge("Trà Vinh", "Sài Gòn", 125);
             g.InsertEdge("Trà Vinh", "Cà Mau", 195);
@@ -142,13 +140,19 @@ namespace DijkstraTest2
                 southMap.Refresh();
                 DrawLine();
                 g.pathIndex.Clear();
+                tbKM.Clear();
+                tbLiter.Clear();
                 tbCost.Clear();
                 tbPath.Clear();
-                g.FindPaths(cbSource.SelectedItem.ToString(), cbDestination.SelectedIndex.ToString(), tbCost, tbPath);
+                g.FindPaths(cbSource.SelectedItem.ToString(), cbDestination.SelectedIndex.ToString(),tbKM,tbLiter, tbCost, tbPath);
                 for (int i = 0; i < g.pathIndex.Count - 1; i++)
                 {
                     DrawPathLine(i);
                 }
+            }
+            if (cbSource.SelectedIndex == cbDestination.SelectedIndex)
+            {
+                MessageBox.Show("Unresponsive\n The location can't be the same !", "Notify!");
             }
         }
         private void cbDestination_SelectedIndexChanged(object creator, EventArgs e)
@@ -159,14 +163,20 @@ namespace DijkstraTest2
                 southMap.Refresh();
                 DrawLine();
                 g.pathIndex.Clear();
+                tbKM.Clear();
+                tbLiter.Clear();
                 tbCost.Clear();
                 tbPath.Clear();
-                g.FindPaths(cbSource.SelectedItem.ToString(), cbDestination.SelectedIndex.ToString(), tbCost, tbPath);
+                g.FindPaths(cbSource.SelectedItem.ToString(), cbDestination.SelectedIndex.ToString(),tbKM ,tbLiter, tbCost, tbPath);
                 for (int i = 0; i < g.pathIndex.Count - 1; i++)
                 {
                     DrawPathLine(i);
                 }
             }
+            if (cbSource.SelectedIndex == cbDestination.SelectedIndex)
+            {
+                MessageBox.Show("Unresponsive\n The location can't be the same !", "Notify!");
+            }    
         }
         //Vẽ lại đường đi ngắn nhất
         private void DrawPathLine(int i)
@@ -177,5 +187,6 @@ namespace DijkstraTest2
             Point point2 = new Point(g.pathIndex[i + 1].X, g.pathIndex[i + 1].Y);
             graph.DrawLine(p, point1, point2);
         }
+
     }
 }
