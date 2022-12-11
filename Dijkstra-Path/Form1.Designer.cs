@@ -123,7 +123,7 @@
             this.lbInfo.Name = "lbInfo";
             this.lbInfo.Size = new System.Drawing.Size(1114, 48);
             this.lbInfo.TabIndex = 1;
-            this.lbInfo.Text = "Dijkstra algorithm application optimizes transportation costs";
+            this.lbInfo.Text = "Optimal Transport using Dijkstra Algorithm: A Case Study in Southern ";
             // 
             // label3
             // 
@@ -164,7 +164,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(964, 58);
             this.label1.TabIndex = 2;
-            this.label1.Text = "List of Provinces/Citys in South Vietnam";
+            this.label1.Text = "List of Provinces/Cities in South Vietnam";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lvListProvinces
@@ -1108,7 +1108,7 @@
             this.label64.Name = "label64";
             this.label64.Size = new System.Drawing.Size(664, 35);
             this.label64.TabIndex = 13;
-            this.label64.Text = "SHIPPING COST TABLE IN SOUTH VIETNAM";
+            this.label64.Text = "SHIPPING COST";
             // 
             // Form1
             // 
