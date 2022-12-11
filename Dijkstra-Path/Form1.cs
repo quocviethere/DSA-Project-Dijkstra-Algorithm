@@ -93,7 +93,7 @@ namespace DijkstraTest2
             Graphics graph = southMap.CreateGraphics();
             for (int i = 0; i < Locations.Count; i++)
             {
-                SolidBrush brush = new SolidBrush(Color.Purple);
+                SolidBrush brush = new SolidBrush(Color.SeaGreen);
                 Brush pointName = new SolidBrush(Color.White);
                 graph.FillEllipse(brush, Locations[i].getPoint().X - 3, Locations[i].getPoint().Y - 2, 18, 18);
                 graph.DrawString(Locations[i].getPointName(), new Font("Arial", 8), pointName, Locations[i].getPoint().X, Locations[i].getPoint().Y);
