@@ -78,7 +78,7 @@ namespace DijkstraTest2
             vertexList[s].pathLength = 0;
             while (true)
             {
-                c = TempVertexWithMinPL();
+                c = TempVertex();
                 if (c == NIL)
                     return;
                 vertexList[c].status = PERMANENT;
@@ -175,7 +175,7 @@ namespace DijkstraTest2
             return adj[u, v] != 0;
         }
 
-        private int TempVertexWithMinPL()
+        private int TempVertex()
         {
             int min = INFINITY;
             int x = NIL;
