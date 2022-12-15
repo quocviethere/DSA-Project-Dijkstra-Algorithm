@@ -4,7 +4,7 @@ A project for `22C1INF50900702`: **Data Structures and Algorithms** at Universit
 
 ## Members/Authors
 - `31211027676` Nguyễn Đình Toàn ([@kudasai03](https://github.com/Kudasai03))
-- `31211023531`Nguyễn King ([@nguynking](https://github.com/nguynking))
+- `31211023531` Nguyễn King ([@nguynking](https://github.com/nguynking))
 - `31211027687` Nguyễn Quốc Việt ([@quocviethere](https://github.com/quocviethere))
 - `31211027643` Đinh Trọng Hữu ([@dinhtronghuu](https://github.com/dinhtronghuu))
 
