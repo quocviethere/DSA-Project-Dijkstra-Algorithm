@@ -17,7 +17,7 @@ We'd want to thank you for your efforts this semester, particularly in this cour
 
 This lesson was difficult at times, but there was benefit to being exposed to the content. And this project is quite difficult. But we did it with all of our efforts, collaborative spirit, and your help.
 
-We would like to thank my instructors at University of Economics Ho Chi Minh City for their assistance with this research. Special thanks to our University of Economics Ho Chi Minh City seniors for giving ideas and skills that enabled us to complete this project.
+We would like to thank our instructors at University of Economics Ho Chi Minh City for their assistance with this research. Special thanks to our University of Economics Ho Chi Minh City seniors for giving ideas and skills that enabled us to complete this project.
 
 Last but not least, thanks to our teammates, we did it. **Together.**
 
